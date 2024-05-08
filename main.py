@@ -30,9 +30,9 @@ def help_message(message):
 
 
 def send_reminders(chat_id):
-    first_rem = "13:30"
-    second_rem = "15:30"
-    last_rem = "17:30"
+    first_rem = "10:00"
+    second_rem = "14:00"
+    last_rem = "18:00"
 
     while True:
         now = datetime.datetime.now().strftime('%H:%M')

@@ -25,7 +25,7 @@ def fact_message(message):
 
 @bot.message_handler(commands=['help'])
 def help_message(message):
-    help_text = 'Ты можешь управлять мной, используя следующие команды: \n /start - начать \n /fact - рандомный факт \n /help - помощь'
+    help_text = 'Ты можешь управлять мной, используя следующие команды: \n /start - начать \n /fact - любопытный факт \n /help - помощь'
     bot.reply_to(message, help_text)
 
 
